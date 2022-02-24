@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiply</title>
+</head>
+<body>
+    <P id="mul"></P>
+    <script>
+        const x = 10;
+        const numbers = [8, 6, 7, 4, 9, 3, 5, 12, 21, 72];
+        const newArr = numbers.map(myFunction);
+
+        document.getElementById("mul").innerHTML = newArr;
+
+        function myFunction(num) {
+            return num * x;
+        }
+    </script>
+</body>
+</html>
